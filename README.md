@@ -29,6 +29,7 @@ $wrk -c 100 -t 5 -d 10s http://localhost:8000/weatherforecast
 
 ### Resources
 * [Basic of GC in .Net](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
+* [GC Performance issues](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/performance)
 * [Redis library for .Net](https://docs.redis.com/latest/rs/references/client_references/client_csharp/)
    * https://github.com/StackExchange/StackExchange.Redis
    * [Basic usage](https://stackexchange.github.io/StackExchange.Redis/Basics)
