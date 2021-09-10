@@ -25,3 +25,13 @@ $wrk -c 100 -t 5 -d 10s http://localhost:8000/weatherforecast
 ### Monitoring 
 * [Grafana](http://localhost:3000/)
 * [Prometheus](http://localhost:9090/)
+
+
+### Resources
+* [Redis library for .Net](https://docs.redis.com/latest/rs/references/client_references/client_csharp/)
+   * https://github.com/StackExchange/StackExchange.Redis
+   * [Configuration of Redis client](https://stackexchange.github.io/StackExchange.Redis/Configuration.html)
+   * https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache
+* Prometheus for .Net
+   * https://github.com/prometheus-net/prometheus-net
+   * [Grafana dashboard](https://github.com/prometheus-net/grafana-dashboards)
