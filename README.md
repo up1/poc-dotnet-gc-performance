@@ -30,6 +30,7 @@ $wrk -c 100 -t 5 -d 10s http://localhost:8000/weatherforecast
 ### Resources
 * [Redis library for .Net](https://docs.redis.com/latest/rs/references/client_references/client_csharp/)
    * https://github.com/StackExchange/StackExchange.Redis
+   * [Basic usage](https://stackexchange.github.io/StackExchange.Redis/Basics)
    * [Configuration of Redis client](https://stackexchange.github.io/StackExchange.Redis/Configuration.html)
    * https://docs.microsoft.com/en-us/azure/azure-cache-for-redis/cache-dotnet-how-to-use-azure-redis-cache
 * Prometheus for .Net
