@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StackExchange.Redis" />
+    <None Remove="prometheus-net" />
+    <None Remove="prometheus-net.AspNetCore" />
+    <None Remove="StackExchange.Redis.MultiplexerPool" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.2.50" />
+    <PackageReference Include="prometheus-net" Version="5.0.1" />
+    <PackageReference Include="prometheus-net.AspNetCore" Version="5.0.1" />
+    <PackageReference Include="StackExchange.Redis.MultiplexerPool" Version="1.0.1" />
+  </ItemGroup>
+</Project>

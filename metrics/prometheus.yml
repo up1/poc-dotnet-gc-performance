@@ -1,0 +1,11 @@
+scrape_configs:
+  - job_name: redis_exporter
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['redis_exporter:9121']
+
+  - job_name: api
+    metrics_path: /prometheus/metrics
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['api']
